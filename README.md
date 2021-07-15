@@ -31,6 +31,8 @@ This project aims to design and develop an E-commerce website that lets people s
 
 ## Flowcharts of The Application
 
+![image](https://user-images.githubusercontent.com/64940728/125710594-6d31612d-85ff-4127-bd70-d601673d6e10.png)
+
 ## Core concepts used in the project. 
 1.	Object-Oriented: used to create and model objects for users and their credentials.
 2.	REST API: used to communicate between the back-end and the front-end sides.
@@ -83,3 +85,12 @@ This project aims to design and develop an E-commerce website that lets people s
 
 
 ## Screenshots
+
+![image](https://user-images.githubusercontent.com/64940728/125710556-2a5b4036-697c-46b9-98a5-f8c75189be84.png)
+
+![image](https://user-images.githubusercontent.com/64940728/125710563-8b3f482e-accb-49fa-a6e2-5d7c5d7896f3.png)
+
+![image](https://user-images.githubusercontent.com/64940728/125710569-f4c389cf-6db0-4020-8d91-46dcc6f2acde.png)
+
+![image](https://user-images.githubusercontent.com/64940728/125710576-966088eb-2ce9-407a-a40b-99b38c50bed2.png)
+
