@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Component, OnInit } from '@angular/core';
 import { CartService } from 'src/app/services/cart.service';
  
@@ -8,7 +9,7 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class CartStatusComponent implements OnInit {
    
-  
+  const username = localStorage.getItem('username');
 
   constructor(private cartService: CartService) { }
 

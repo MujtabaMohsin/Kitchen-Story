@@ -14,6 +14,7 @@ import { CartItem } from 'src/app/common/cart-item';
 export class ProductDetailsComponent implements OnInit {
 
   product: Product = new Product();
+  const username = localStorage.getItem('username');
 
   constructor(private productService: ProductService,
               private cartService: CartService,
