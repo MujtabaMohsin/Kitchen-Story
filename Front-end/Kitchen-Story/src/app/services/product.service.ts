@@ -14,6 +14,8 @@ export class ProductService {
 
   private categoryUrl = 'http://localhost:8080/api/product-category';
 
+  private saveURL = 'http://localhost:8080/api/products/save';
+
   constructor(private httpClient: HttpClient) { }
 
   getProduct(theProductId: number): Observable<Product> {
@@ -87,7 +89,14 @@ export class ProductService {
     );
   }
 
+  addProduct(product: Product): Observable<any> {
+    return this.httpClient.post<Product>(this.saveURL, product);    
+  }
+
 }
+
+
+
 
 interface GetResponseProducts {
   _embedded: {

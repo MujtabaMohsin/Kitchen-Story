@@ -15,7 +15,6 @@ import javax.persistence.metamodel.EntityType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
@@ -26,9 +25,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         entityManager = theEntityManager;
     }
 
-
     @Override
-    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
 
         HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
 
